@@ -9,7 +9,7 @@ export default function HowWeWork() {
           <span className='block text-rose-600'>Timelapse - Living Area</span>
         </h3>
         <video
-          class='min-w-full min-h-full object-cover rounded-xl'
+          className='min-w-full min-h-full object-cover rounded-xl'
           src='/home/time-lapse.mp4'
           type='video/mp4'
           autoPlay
