@@ -4,10 +4,10 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/outline'
 
 export default function ProjectSlider() {
   const images = [
-    { url: '/home/hero.png', alt: 'hero' },
-    { url: '/home/hero.png', alt: 'hero' },
-    { url: '/home/hero.png', alt: 'hero' },
-    { url: '/home/hero.png', alt: 'hero' },
+    { url: '/home/project-1.png', alt: 'project-1' },
+    { url: '/home/project-2.png', alt: 'project-2' },
+    { url: '/home/project-3.png', alt: 'project-3' },
+    { url: '/home/project-4.png', alt: 'project-4' },
   ]
   const settings = {
     dots: true,
