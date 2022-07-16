@@ -136,7 +136,7 @@ export default function Hero() {
                 alt='Transistor'
               />
             </div>
-            <div className='col-span-2 flex justify-center md:col-span-3 lg:col-span-1'>
+            <div className='col-span-1 flex justify-center md:col-span-3 lg:col-span-1'>
               <img
                 className='h-12'
                 src='https://tailwindui.com/img/logos/workcation-logo-white.svg'
