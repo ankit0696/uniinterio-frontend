@@ -66,7 +66,7 @@ export default function Projects() {
             </div>
           </div>
           <div className='mt-12 sm:mt-16 lg:mt-0'>
-            <div className='pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full'>
+            <div className='px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 rounded-xl'>
               <ProjectSlider />
             </div>
           </div>
