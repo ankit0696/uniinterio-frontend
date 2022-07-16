@@ -27,7 +27,7 @@ export default function Steps() {
   return (
     <section className='dark:bg-gray-800 dark:text-gray-100'>
       <div className='container mx-auto flex flex-col p-6'>
-        <h2 class='text-3xl font-extrabold tracking-tight text-center text-rose-900'>
+        <h2 className='text-3xl font-extrabold tracking-tight text-center text-rose-900'>
           Steps to beautiful interior
         </h2>
 
