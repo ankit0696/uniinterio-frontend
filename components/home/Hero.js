@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <div className='bg-rose-50'>
+    <div className='bg-white'>
       <div className='relative overflow-hidden'>
         <div className='absolute inset-y-0 h-full w-full' aria-hidden='true'>
           <div className='relative h-full'>
