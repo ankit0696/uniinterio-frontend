@@ -62,7 +62,7 @@ export default function Footer() {
             </Link>
           </div>
           <p className='mt-6 text-sm text-slate-500 sm:mt-0'>
-            Copyright &copy; {new Date().getFullYear()} Uni Interio. All rights
+            Copyright &copy; {new Date().getFullYear()} Uniangle Pvt. Ltd. All rights
             reserved.
           </p>
         </div>
