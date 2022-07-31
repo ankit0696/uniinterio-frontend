@@ -113,34 +113,36 @@ export default function Hero() {
           <h2 className='text-center text-rose-200 text-sm font-semibold uppercase tracking-wide'>
             Powered by
           </h2>
-          <div className='mt-8 grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4'>
-            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1 text-white'>
-              <img
-                className='h-12'
-                src='/home/logo/startup-india-logo.png'
-                alt='Unirchitect'
-              />
-            </div>
-            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1 text-white'>
-              <img
-                className='h-12'
-                src='/home/logo/aws-logo.png'
-                alt='Unirchitect'
-              />
-            </div>
-            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1 text-white'>
-              <img
-                className='h-12'
-                src='/home/logo/uniangle-logo.png'
-                alt='Unirchitect'
-              />
-            </div>
-            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1 text-white'>
-              <img
-                className='h-11'
-                src='/home/logo/vercel-logo.png'
-                alt='Unirchitect'
-              />
+          <div className='flow-root mt-8 lg:mt-10'>
+            <div className='-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4'>
+              <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
+                <img
+                  className='h-12'
+                  src='/home/logo/startup-india-logo.png'
+                  alt='StartUp India'
+                />
+              </div>
+              <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
+                <img
+                  className='h-12'
+                  src='/home/logo/aws-logo.png'
+                  alt='Amazon Web Services'
+                />
+              </div>
+              <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
+                <img
+                  className='h-12'
+                  src='/home/logo/uniangle-logo.png'
+                  alt='Uniangle'
+                />
+              </div>
+              <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
+                <img
+                  className='h-11'
+                  src='/home/logo/vercel-logo.png'
+                  alt='Vercel'
+                />
+              </div>
             </div>
           </div>
         </div>
