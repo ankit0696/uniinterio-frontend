@@ -117,28 +117,28 @@ export default function Hero() {
             <div className='-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4'>
               <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
                 <img
-                  className='h-12'
+                  className='h-11'
                   src='/home/logo/startup-india-logo.png'
                   alt='StartUp India'
                 />
               </div>
               <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
                 <img
-                  className='h-12'
+                  className='h-11'
                   src='/home/logo/aws-logo.png'
                   alt='Amazon Web Services'
                 />
               </div>
               <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
                 <img
-                  className='h-12'
+                  className='h-8'
                   src='/home/logo/uniangle-logo.png'
                   alt='Uniangle'
                 />
               </div>
               <div className='mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4'>
                 <img
-                  className='h-11'
+                  className='h-8'
                   src='/home/logo/vercel-logo.png'
                   alt='Vercel'
                 />
