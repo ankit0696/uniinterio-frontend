@@ -111,36 +111,35 @@ export default function Hero() {
       <div className='bg-rose-900'>
         <div className='max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8'>
           <h2 className='text-center text-rose-200 text-sm font-semibold uppercase tracking-wide'>
-            Partners and Collaborators
+            Powered by
           </h2>
           <div className='mt-8 grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4'>
-            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
+            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1 text-white'>
               <img
                 className='h-12'
-                src='https://tailwindui.com/img/logos/workcation-logo-white.svg'
-                alt='Tuple'
+                src='/home/logo/startup-india-logo.png'
+                alt='Unirchitect'
               />
             </div>
-
-            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
+            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1 text-white'>
               <img
                 className='h-12'
-                src='https://tailwindui.com/img/logos/workcation-logo-white.svg'
-                alt='StaticKit'
+                src='/home/logo/aws-logo.png'
+                alt='Unirchitect'
               />
             </div>
-            <div className='col-span-1 flex justify-center md:col-span-3 lg:col-span-1'>
+            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1 text-white'>
               <img
                 className='h-12'
-                src='https://tailwindui.com/img/logos/workcation-logo-white.svg'
-                alt='Transistor'
+                src='/home/logo/uniangle-logo.png'
+                alt='Unirchitect'
               />
             </div>
-            <div className='col-span-1 flex justify-center md:col-span-3 lg:col-span-1'>
+            <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1 text-white'>
               <img
-                className='h-12'
-                src='https://tailwindui.com/img/logos/workcation-logo-white.svg'
-                alt='Workcation'
+                className='h-11'
+                src='/home/logo/vercel-logo.png'
+                alt='Unirchitect'
               />
             </div>
           </div>
