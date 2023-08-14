@@ -73,12 +73,12 @@ export default function About() {
                 we undertake is a collaborative journey. From the initial
                 consultation to the final touches, we prioritize your
                 preferences and ideas, working hand in hand to bring your dream
-                space to life. Your satisfaction is our ultimate goal, and we're
+                space to life. Your satisfaction is our ultimate goal, and we&apos;re
                 dedicated to crafting interiors that resonate with your
                 personality and enhance your lifestyle.
               </p>
               <p>
-                Through our design journey at Uni Interio, we've had the honor
+                Through our design journey at Uni Interio, we&apos;ve had the honor
                 of creating success stories that redefine spaces and lifestyles.
                 From residential havens to commercial transformations, our
                 designs reflect the dreams and aspirations of our clients.
