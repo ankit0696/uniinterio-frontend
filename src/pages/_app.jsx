@@ -2,11 +2,13 @@ import { useEffect, useRef } from 'react'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/react'
 
 import '@/styles/tailwind.css'
 import 'focus-visible'
 import Script from 'next/script'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function usePrevious(value) {
   let ref = useRef()
@@ -36,7 +38,7 @@ export default function App({ Component, pageProps, router }) {
             src="https://www.googletagmanager.com/gtag/js?id=G-RR28LWZF11"
           ></Script>
           <Script id="google-analytics">
-          {`
+            {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
@@ -48,6 +50,18 @@ export default function App({ Component, pageProps, router }) {
         </main>
         <Footer />
       </div>
+      <ToastContainer
+        position="bottom-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
       <Analytics />
     </>
   )
