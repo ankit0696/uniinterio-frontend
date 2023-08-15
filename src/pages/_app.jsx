@@ -47,6 +47,7 @@ export default function App({ Component, pageProps, router }) {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </>
   )
 }
