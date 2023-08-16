@@ -140,7 +140,7 @@ function Newsletter() {
     if (res.status === 201) {
       toast.success('Thank you for your interest. We will contact you soon.', toastOptions)
     } else {
-      toast.error('Oops! Something went wrong.', toastOptions)
+      toast.error('Oops!Something went wrong.', toastOptions)
     }
   }
 
