@@ -46,6 +46,10 @@ export default function App({ Component, pageProps, router }) {
           gtag('config', 'G-RR28LWZF11');
         `}
           </Script>
+          <Script
+            async
+            src="https://app.wotnot.io/chat-widget/3SmdUuGPa4ys1054049124486ejdrlAz.js"
+          ></Script>
           <Component previousPathname={previousPathname} {...pageProps} />
         </main>
         <Footer />
