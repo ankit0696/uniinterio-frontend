@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     })
     res.status(201).json({ result })
   } else {
-    res.status(405).json({ message: `${req.method} is not allowed` })
+    res.status(405).json({ message: `${req.method} method is not allowed` })
   }
 }
 
