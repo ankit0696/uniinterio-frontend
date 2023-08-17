@@ -300,11 +300,15 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Uni Interio - Software designer, founder, and amateur astronaut
+          Uni Interio - Transforming Spaces with Creative Interior Design
         </title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="Discover exceptional interior design solutions with Uni Interio. We specialize in crafting personalized spaces that reflect your style and aspirations. Explore our portfolio and services today."
+        />
+        <meta
+          name="keywords"
+          content="interior design, interior design company, interior design services, interior design company in delhi, interior design company in gurgaon, interior design company in noida, interior design company in faridabad, interior design company in ghaziabad, interior design company in greater noida, interior design company in delhi ncr, interior design company in india, interior design company in mumbai, interior design company in bangalore, interior design company in chennai, interior design company in hyderabad, interior design company in pune, interior design company in kolkata, interior design company in ahmedabad, interior design company in jaipur, interior design company in surat, interior design company in chandigarh, interior design company in lucknow, interior design company in bhopal, interior design company in indore, interior design company in patna, interior design company in vadodara, interior design company in ghaziabad, interior design company in ludhiana"
         />
       </Head>
       <Container className="mt-9">
@@ -313,10 +317,10 @@ export default function Home({ articles }) {
             Unique &amp; Affordable interiors customised for you
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-             We provide a wide range of interior design and renovation services.
+            We provide a wide range of interior design and renovation services.
             Unique designs that are designed to fit your needs with
-            budget-friendly prices.
-            Our team of experts will help you to create your dream home.
+            budget-friendly prices. Our team of experts will help you to create
+            your dream home.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
