@@ -15,7 +15,7 @@ import portraitImage from '@/images/about.webp'
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
     <li className={clsx(className, 'flex')}>
-      <Link
+      <a
         href={href}
         target="_blank"
         rel="noopener noreferrer"
@@ -23,7 +23,7 @@ function SocialLink({ className, href, children, icon: Icon }) {
       >
         <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-rose-500" />
         <span className="ml-4">{children}</span>
-      </Link>
+      </a>
     </li>
   )
 }

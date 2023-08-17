@@ -103,9 +103,14 @@ function Article({ article }) {
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
-    <Link className="group -m-1 p-1" {...props}>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group -m-1 p-1"
+      {...props}
+    >
       <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
-    </Link>
+    </a>
   )
 }
 
@@ -138,7 +143,10 @@ function Newsletter() {
     setPhone('')
 
     if (res.status === 201) {
-      toast.success('Thank you for your interest. We will contact you soon.', toastOptions)
+      toast.success(
+        'Thank you for your interest. We will contact you soon.',
+        toastOptions
+      )
     } else {
       toast.error('Oops!Something went wrong.', toastOptions)
     }
@@ -157,7 +165,8 @@ function Newsletter() {
         </span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        We are here to help you with your project. We will get back to you as soon as possible.
+        We are here to help you with your project. We will get back to you as
+        soon as possible.
       </p>
       <div className="mt-6 flex">
         <input
@@ -172,15 +181,14 @@ function Newsletter() {
         <Button type="submit" className="ml-4 flex-none">
           Book free consultation
         </Button>
-
       </div>
       <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400">
-          By clicking the button above, you agree to our{' '}
-          <Link href="/privacy-policy" className="underline">
-            Privacy Policy
-          </Link>
-          .
-        </p>
+        By clicking the button above, you agree to our{' '}
+        <Link href="/privacy-policy" className="underline">
+          Privacy Policy
+        </Link>
+        .
+      </p>
     </form>
   )
 }
