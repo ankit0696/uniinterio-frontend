@@ -49,6 +49,7 @@ export default function App({ Component, pageProps, router }) {
           <Script
             async
             src="https://app.wotnot.io/chat-widget/3SmdUuGPa4ys1054049124486ejdrlAz.js"
+            strategy="afterInteractive"
           ></Script>
           <Component previousPathname={previousPathname} {...pageProps} />
         </main>
