@@ -84,6 +84,9 @@ return (
             <div className="flex justify-center w-full h-32">
               <Lottie 
                 animationData={solution.svg}
+                // animate on hover
+                loop={false}
+              
               />
             </div>
             <div className="">
