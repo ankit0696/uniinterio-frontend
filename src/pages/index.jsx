@@ -11,6 +11,8 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
+  WhatsAppIcon,
+  WhatsAppIconDark,
 } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
@@ -330,6 +332,14 @@ export default function Home({ articles }) {
             budget-friendly prices. Our team of experts will help you to create
             your dream home.
           </p>
+          {/* Add whatsapp contact button */}
+          <div className="mt-6 flex gap-6">
+            <SocialLink
+              href="https://wa.me/917654882112"
+              aria-label="Follow on Twitter"
+              icon={WhatsAppIcon}
+            />  
+          </div>
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://twitter.com"
