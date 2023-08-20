@@ -340,6 +340,7 @@ export default function Home({ articles }) {
               href="https://wa.me/917654882112"
               aria-label="Follow on Twitter"
               icon={WhatsAppIcon}
+              className="hover:scale-110 transform transition"
             />  
           </div>
           <div className="mt-6 flex gap-6">
