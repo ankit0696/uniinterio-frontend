@@ -354,16 +354,6 @@ export default function Home({ articles }) {
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
-            <SocialLink
-              href="https://github.com"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="https://linkedin.com"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
-            />
           </div>
         </div>
       </Container>

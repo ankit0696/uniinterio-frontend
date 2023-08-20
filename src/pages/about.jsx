@@ -107,12 +107,6 @@ export default function About() {
               <SocialLink href="https://www.instagram.com/uni_interio/" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
-                Follow on GitHub
-              </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
-                Follow on LinkedIn
-              </SocialLink>
               <SocialLink
                 href="mailto:contact@uniinterio.com"
                 icon={MailIcon}
