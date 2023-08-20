@@ -78,13 +78,13 @@ return (
     <div className="mt-6 grid grid-cols-3 gap-8 md:grid-cols-5 lg:mt-8">
       {solutions.map((solution) => (
         <div key={solution.name} className="col-span-1 flex justify-center">
-          <div className="max-w-xs space-y-4">
-            <div className="flex justify-center h-48 w-full">
+          <div className="max-w-xs space-y-1">
+            <div className="flex justify-center w-full">
               <Lottie 
                 animationData={solution.svg}
               />
             </div>
-            <div className="space-y-2">
+            <div className="">
               <div className="space-y-1 text-sm text-center font-semibold text-zinc-900 dark:text-zinc-100">
                 <h3>{solution.name}</h3>
               </div>
