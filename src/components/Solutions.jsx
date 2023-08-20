@@ -3,6 +3,8 @@ import Lottie from 'lottie-react'
 import KitchenAnimation from '../images/lottie/kitchen.json'
 import WardrobeAnimation from '../images/lottie/wardrobe.json'
 import FurnitureAnimation from '../images/lottie/furniture.json'
+import WallPaintAnimation from '../images/lottie/paint.json'
+
 
 export default function Solutions() {
   const solutions = [
@@ -42,10 +44,10 @@ export default function Solutions() {
     //   name: 'Wallpaper',
     //   svg: <Wallpaper />,
     // },
-    // {
-    //   name: 'Wall Paint',
-    //   svg: <Paint />,
-    // },
+    {
+      name: 'Wall Paint',
+      svg: WallPaintAnimation
+    },
     // {
     //   name: 'Bathroom',
     //   svg: <Bathroom />,
@@ -79,7 +81,7 @@ return (
       {solutions.map((solution) => (
         <div key={solution.name} className="col-span-1 flex justify-center">
           <div className="max-w-xs space-y-1">
-            <div className="flex justify-center w-full">
+            <div className="flex justify-center w-full h-32">
               <Lottie 
                 animationData={solution.svg}
               />
