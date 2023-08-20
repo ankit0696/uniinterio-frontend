@@ -28,6 +28,7 @@ import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
 import { useState } from 'react'
 import { toast } from 'react-toastify'
+import Solutions from '@/components/Solutions'
 
 function MailIcon(props) {
   return (
@@ -305,6 +306,7 @@ function Photos() {
   )
 }
 
+
 export default function Home({ articles }) {
   return (
     <>
@@ -365,6 +367,9 @@ export default function Home({ articles }) {
         </div>
       </Container>
       <Photos />
+      <Container className="mt-24 md:mt-28">
+        <Solutions />
+      </Container>
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
