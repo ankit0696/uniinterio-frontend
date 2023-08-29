@@ -83,7 +83,7 @@ return (
       {solutions.map((solution) => (
         <div key={solution.name} className="col-span-1 flex justify-center">
           <div className="max-w-xs space-y-1">
-            <div className="flex justify-center w-full h-24">
+            <div className="flex justify-center w-full h-24 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-md">
               {/* Add icon image here */}
               <Image src={solution.icon} alt={solution.name} />
             </div>
