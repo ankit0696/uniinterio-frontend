@@ -1,72 +1,70 @@
-
-import Lottie from 'lottie-react'
-import KitchenAnimation from '../images/lottie/kitchen.json'
-import WardrobeAnimation from '../images/lottie/wardrobe.json'
-import FurnitureAnimation from '../images/lottie/furniture.json'
-import WallPaintAnimation from '../images/lottie/paint.json'
-
-
+import FurnitureIcon from '@/images/solutions/furniture.svg'
+import WallPaintIcon from '@/images/solutions/wall-paint.svg'
+import KitchenAnimation from '@/images/solutions/kitchen.svg'
+import CeilingIcon from '@/images/solutions/ceiling.svg'
+import BathroomIcon from '@/images/solutions/bathroom.svg'
+import Image from 'next/image'
 export default function Solutions() {
   const solutions = [
-    // {
-    //   name: 'Modular Kitchen',
-    //   svg: KitchenAnimation
-    // },
+    {
+      name: 'Modular Kitchen',
+      icon: KitchenAnimation
+    },
     // {
     //   name: 'Storage and wardrobe',
-    //   svg: WardrobeAnimation,
+    //   icon: WardrobeAnimation,
     // },
     // {
     //   name: 'Crockery Units',
-    //   svg: KitchenAnimation
+    //   icon: KitchenAnimation
     // },
     {
       name: 'Space Saving Furniture',
-      svg: FurnitureAnimation
+      icon: FurnitureIcon
     },
     // {
     //   name: 'TV Units',
-    //   svg: KitchenAnimation
+    //   icon: KitchenAnimation
     // },
     // {
     //   name: 'Study Tables',
-    //   svg: <Study />,
+    //   icon: <Study />,
     // },
-    // {
-    //   name: 'False Ceiling',
-    //   svg: <Ceiling />,
-    // },
+    {
+      name: 'False Ceiling',
+      icon: CeilingIcon
+    },
     // {
     //   name: 'Lights',
-    //   svg: <Lights />,
+    //   icon: <Lights />,
     // },
     // {
     //   name: 'Wallpaper',
-    //   svg: <Wallpaper />,
+    //   icon: <Wallpaper />,
     // },
     {
       name: 'Wall Paint',
-      svg: WallPaintAnimation
+      icon: WallPaintIcon
+    },
+    {
+      name: 'Bathroom',
+      icon: BathroomIcon
     },
     // {
-    //   name: 'Bathroom',
-    //   svg: <Bathroom />,
-    // },
-    // {
     //   name: 'Pooja Unit',
-    //   svg: <Pooja />,
+    //   icon: <Pooja />,
     // },
     // {
     //   name: 'Foyer Designs',
-    //   svg: <Foyer />,
+    //   icon: <Foyer />,
     // },
     // {
     //   name: 'Movable furniture',
-    //   svg: <Movable />,
+    //   icon: <Movable />,
     // },
     // {
     //   name: 'Kids Bedroom',
-    //   svg: <Kids />,
+    //   icon: <Kids />,
     // },
   ]
     
@@ -81,13 +79,9 @@ return (
       {solutions.map((solution) => (
         <div key={solution.name} className="col-span-1 flex justify-center">
           <div className="max-w-xs space-y-1">
-            <div className="flex justify-center w-full h-32">
-              <Lottie 
-                animationData={solution.svg}
-                // animate on hover
-                loop={false}
-              
-              />
+            <div className="flex justify-center w-full h-24">
+              {/* Add icon image here */}
+              <Image src={solution.icon} alt={solution.name} />
             </div>
             <div className="">
               <div className="space-y-1 text-sm text-center font-semibold text-zinc-900 dark:text-zinc-100">
