@@ -59,7 +59,7 @@ export default function Solutions() {
     //   icon: <Foyer />,
     // },
     {
-      name: 'Glass Interiors',
+      name: 'Glass Interior',
       icon: GlassIcon
     },
     {
