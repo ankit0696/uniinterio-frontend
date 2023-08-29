@@ -41,10 +41,7 @@ export default function Solutions() {
     //   name: 'Lights',
     //   icon: <Lights />,
     // },
-    {
-      name: 'Wallpaper',
-      icon: WallPaperIcon
-    },
+
     {
       name: 'Wall Paint',
       icon: WallPaintIcon
@@ -69,6 +66,10 @@ export default function Solutions() {
       name: 'Master Bedroom',
       icon: BedroomIcon
     },
+    {
+      name: 'Wallpaper',
+      icon: WallPaperIcon
+    }
   ]
     
 
