@@ -3,6 +3,9 @@ import WallPaintIcon from '@/images/solutions/wall-paint.svg'
 import KitchenAnimation from '@/images/solutions/kitchen.svg'
 import CeilingIcon from '@/images/solutions/ceiling.svg'
 import BathroomIcon from '@/images/solutions/bathroom.svg'
+import BedroomIcon from '@/images/solutions/bedroom.svg'
+import GlassIcon from '@/images/solutions/crystal.svg'
+import WallPaperIcon from '@/images/solutions/wallpaper.svg'
 import Image from 'next/image'
 export default function Solutions() {
   const solutions = [
@@ -38,10 +41,10 @@ export default function Solutions() {
     //   name: 'Lights',
     //   icon: <Lights />,
     // },
-    // {
-    //   name: 'Wallpaper',
-    //   icon: <Wallpaper />,
-    // },
+    {
+      name: 'Wallpaper',
+      icon: WallPaperIcon
+    },
     {
       name: 'Wall Paint',
       icon: WallPaintIcon
@@ -58,14 +61,14 @@ export default function Solutions() {
     //   name: 'Foyer Designs',
     //   icon: <Foyer />,
     // },
-    // {
-    //   name: 'Movable furniture',
-    //   icon: <Movable />,
-    // },
-    // {
-    //   name: 'Kids Bedroom',
-    //   icon: <Kids />,
-    // },
+    {
+      name: 'Glass Interiors',
+      icon: GlassIcon
+    },
+    {
+      name: 'Master Bedroom',
+      icon: BedroomIcon
+    },
   ]
     
 
