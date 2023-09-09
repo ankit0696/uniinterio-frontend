@@ -37,10 +37,6 @@ export default function Solutions() {
       name: 'False Ceiling',
       icon: CeilingIcon
     },
-    // {
-    //   name: 'Lights',
-    //   icon: <Lights />,
-    // },
 
     {
       name: 'Wall Paint',
@@ -69,7 +65,11 @@ export default function Solutions() {
     {
       name: 'Wallpaper',
       icon: WallPaperIcon
-    }
+    },
+        // {
+    //   name: 'Lights',
+    //   icon: <Lights />,
+    // },
   ]
     
 

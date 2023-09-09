@@ -350,7 +350,7 @@ export default function Home({ articles }) {
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://www.instagram.com/uni_interio/"
+              href="https://www.instagram.com/uniinterio/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
