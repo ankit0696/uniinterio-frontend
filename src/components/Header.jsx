@@ -237,8 +237,9 @@ function Avatar({ large = false, className, ...props }) {
         src={avatarImage}
         alt=""
         sizes={large ? '4rem' : '2.25rem'}
+        // rounded 
         className={clsx(
-          'object-cover',
+          'object-cover rounded-full',
           large ? 'h-16 w-16' : 'h-9 w-9'
         )}
         priority
