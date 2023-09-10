@@ -312,7 +312,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Uni Interio - Transforming Spaces with Creative Interior Design
+          Uni Interio - Designing Interiors, Inspiring Lifestyles
         </title>
         <meta
           name="description"
