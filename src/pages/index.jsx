@@ -343,6 +343,7 @@ export default function Home({ articles }) {
               className="hover:scale-110 transform transition"
             />  
           </div>
+
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://twitter.com"

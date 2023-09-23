@@ -9,6 +9,7 @@ import 'focus-visible'
 import Script from 'next/script'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import Link from 'next/link'
 
 function usePrevious(value) {
   let ref = useRef()
